@@ -2,7 +2,7 @@ import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { TbFileCv } from "react-icons/tb";
 import { DiMsqlServer } from "react-icons/di";
-import { SiApachekafka, SiExpress, SiFastapi } from "react-icons/si";
+import { SiApachekafka, SiApachespark, SiExpress, SiFastapi } from "react-icons/si";
 import StackIcon from "tech-stack-icons";
 import { Link } from "./types/link";
 import { Experience } from "./types/experience";
@@ -100,6 +100,7 @@ const mapping: Record<string, ReactNode> = {
   Linux: <StackIcon name="linux" className="w-10 h-10" />,
   Docker: <StackIcon name="docker" className="w-10 h-10" />,
   Kafka: <SiApachekafka className="w-10 h-10" />,
+  Spark: <SiApachespark className="w-10 h-10" />,
   Git: <StackIcon name="git" className="w-10 h-10" />,
 };
 

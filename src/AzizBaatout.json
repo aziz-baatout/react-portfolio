@@ -34,12 +34,29 @@
   ],
   "experiences": [
     {
+      "logo": "/optios-logo.png",
+      "title": "Data Engineer",
+      "company": "Optios",
+      "location": "Lochristi, Belgium",
+      "startDate": "2025-03-01",
+      "endDate": null,
+      "jobType": "Student Job",
+      "website": "https://www.optios.net/",
+      "description":
+      "Optios offers booking, POS, salon management, and marketing software for beauty salons.",
+      "bulletPoints": [
+        "Developed automated workflows for data extraction, reducing manual effort by 30%.",
+        "Integrated third-party APIs for data enrichment, which improved data accuracy."
+      ],
+      "summary": "At Optios, I worked on automating the process of gathering and organizing data about beauty salon owners to help the sales team focus on the most promising leads. I integrated with the CBE (Crossroads\nBank for Enterprises) to pull basic info about the salons and their\nowners. I also set up other automations and tools to enrich the data,\nmaking it faster and easier to figure out which leads were worth\npursuing. My work helped cut down on manual tasks by about 30% and\nmade the whole lead qualification process smoother and more efficient."
+    },
+    {
       "logo": "/ghent-university-logo.png",
       "title": "Full-stack Developer",
       "company": "Ghent University",
       "location": "Ghent, Belgium",
       "startDate": "2025-03-01",
-      "endDate": null,
+      "endDate": "2025-05-01",
       "jobType": "Student Job",
       "website": "https://www.ugent.be/",
       "description":
@@ -49,23 +66,6 @@
         "Wrote thorough documentation to ensure smooth project handover."
       ],
       "summary": "As part of the Ghent Student Council, I developed and maintained Studium, a platform for students to share notes, summaries, and other academic documents. These documents are protected by Ghent University's copyright policies. I was the sole developer, handling both the backend and frontend with technologies like Django, GraphQL, Vue.js, and Nuxt.js. I was also responsible for documenting the codebase to ensure smooth handovers for future developers."
-    },
-    {
-      "logo": "/optios-logo.png",
-      "title": "Data Automation Engineer",
-      "company": "Optios",
-      "location": "Lochristi, Belgium",
-      "startDate": "2025-03-01",
-      "endDate": null,
-      "jobType": "Student Job",
-      "website": "https://www.optios.net/",
-      "description":
-        "Optios offers booking, POS, salon management, and marketing software for beauty salons.",
-      "bulletPoints": [
-        "Developed automated workflows for data extraction, reducing manual effort by 30%.",
-        "Integrated third-party APIs for data enrichment, which improved data accuracy."
-      ],
-      "summary": "At Optios, I worked on automating the process of gathering and organizing data about beauty salon owners to help the sales team focus on the most promising leads. I integrated with the CBE (Crossroads\nBank for Enterprises) to pull basic info about the salons and their\nowners. I also set up other automations and tools to enrich the data,\nmaking it faster and easier to figure out which leads were worth\npursuing. My work helped cut down on manual tasks by about 30% and\nmade the whole lead qualification process smoother and more efficient."
     },
     {
       "logo": "/fintrax-logo.png",
@@ -168,6 +168,7 @@
     { "name": "Linux" },
     { "name": "Docker" },
     { "name": "Kafka" },
+    { "name": "Spark" },
     { "name": "Git" }
   ],
 "languages": [
