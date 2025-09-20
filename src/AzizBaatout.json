@@ -64,7 +64,7 @@
         "Implemented Infrastructure as Code, making the solution reproducible in ~5 minutes.",
         "Authored an AWS blog post (pending approval) and earned 3 AWS certifications during the internship."
       ],
-      "summary": ""
+      "summary": "[coming soon]"
     },
     {
       "logo": "/optios-logo.png",
@@ -209,7 +209,12 @@
     { "name": "Docker" },
     { "name": "Kafka" },
     { "name": "Spark" },
-    { "name": "Git" }
+    { "name": "Git" },
+    { "name": "Terraform" },
+    { "name": "Pulumi" },
+    { "name": "TensorFlow" },
+    { "name": "Scikit-learn" },
+    { "name": "GH Actions" }
   ],
   "languages": [
     { "name": "Dutch", "level": "Native" },

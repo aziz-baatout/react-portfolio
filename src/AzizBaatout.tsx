@@ -1,15 +1,25 @@
+import { ReactNode } from "react";
+import { DiMsqlServer } from "react-icons/di";
 import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import {
+  SiApachekafka,
+  SiApachespark,
+  SiExpress,
+  SiFastapi,
+  SiGithubactions,
+  SiPulumi,
+  SiScikitlearn,
+  SiTensorflow,
+  SiTerraform,
+} from "react-icons/si";
 import { TbFileCv } from "react-icons/tb";
-import { DiMsqlServer } from "react-icons/di";
-import { SiApachekafka, SiApachespark, SiExpress, SiFastapi } from "react-icons/si";
 import StackIcon from "tech-stack-icons";
-import { Link } from "./types/link";
+import data from "./AzizBaatout.json";
 import { Experience } from "./types/experience";
+import { Link } from "./types/link";
 import { Project } from "./types/project";
 import { Tech } from "./types/tech";
-import data from "./AzizBaatout.json";
-import { ReactNode } from "react";
 
 interface AzizBaatout {
   name: string;
@@ -60,12 +70,10 @@ const getjobSummary = (company: string, title: string, summary: string) => {
           >
             Studium
           </a>
-          , a platform for students to share notes, summaries, and other
-          academic documents. These documents are protected by Ghent
-          University's copyright policies. I was the sole developer, handling
-          both the backend and frontend with technologies like Django, GraphQL,
-          Vue.js, and Nuxt.js. I was also responsible for documenting the
-          codebase to ensure smooth handovers for future developers.
+          , a platform for students to share notes, summaries, and other academic documents. These documents are
+          protected by Ghent University's copyright policies. I was the sole developer, handling both the backend and
+          frontend with technologies like Django, GraphQL, Vue.js, and Nuxt.js. I was also responsible for documenting
+          the codebase to ensure smooth handovers for future developers.
         </div>
       );
     default:
@@ -102,6 +110,11 @@ const mapping: Record<string, ReactNode> = {
   Kafka: <SiApachekafka className="w-10 h-10" />,
   Spark: <SiApachespark className="w-10 h-10" />,
   Git: <StackIcon name="git" className="w-10 h-10" />,
+  Terraform: <SiTerraform className="w-10 h-10" color="#7B42BC" />,
+  Pulumi: <SiPulumi className="w-10 h-10" color="#8A3391" />,
+  TensorFlow: <SiTensorflow className="w-10 h-10" color="#FF6F00" />,
+  "Scikit-learn": <SiScikitlearn className="w-10 h-10" color="#F7931E" />,
+  "GH Actions": <SiGithubactions className="w-10 h-10" color="#2088FF" />,
 };
 
 const links = data.links.map((link) => ({
