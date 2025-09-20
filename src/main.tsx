@@ -1,11 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import Hero from "./components/Hero";
-import ExperienceTimeline from "./components/ExperienceTimeline";
 import { AzizBaatout } from "./AzizBaatout";
+import ExperienceTimeline from "./components/ExperienceTimeline";
+import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
+import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -19,7 +19,7 @@ createRoot(document.getElementById("root")!).render(
           links={AzizBaatout.links}
         />
         <ExperienceTimeline experiences={AzizBaatout.experiences} />
-        <Projects projects={AzizBaatout.projects} />
+        <Projects projects={AzizBaatout.projects.filter((project) => project.showInFrontend)} />
         <TechStack techStack={AzizBaatout.techstack} />
       </div>
     </div>
